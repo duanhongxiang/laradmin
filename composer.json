@@ -1,0 +1,22 @@
+{
+    "name": "duanhongxiang/laradmin",
+    "description": "my first package test^",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "duan.hongxiang",
+            "email": "duan.hongxiang@towngas.com.cn"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Duanhongxiang\\Laradmin\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Duanhongxiang\\Laradmin\\Tests\\": "tests/"
+        }
+    }
+}
